@@ -80,7 +80,7 @@ sendo a numeração exibida o ip que o mysql esta usando. copie o endereço IP e
 vá para pasta raiz do projeto e execute o seguinte comando:
 
 ```
-docker build -t node-image -f api/db/Dockerfile .
+docker build -t node-image -f api/database/Dockerfile .
 ```
  será baixada aimagem docker, se optar por ver execute o comando "docker ls", execute o camando abixo:
  
