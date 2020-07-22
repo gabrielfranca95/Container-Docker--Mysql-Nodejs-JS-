@@ -15,7 +15,7 @@ Docker container application using Mysql and Nodejs technologies
 
 Após ter feito o download dos arquivos, abra seu editor de códigos a partir da pasta raiz, se a pasta não for criada automaticamente crie uma. 
 
-Para rodar uma aplicação com docker, precisamos primeiro criar uma imagem que nos servirá de base para geração do nosso conteiner. As imagens do docker são construidas apartir de um Dockerfile, ele especifica tudo que nossa imagem terá, criamos um diretório de trabalho, instalamos as dependências via npm e expomos a porta.
+Para rodar uma aplicação com docker, precisamos primeiro criar uma imagem, que nos servirá de base para geração do nosso conteiner. As imagens do docker são construidas apartir de um Dockerfile, ele especifica tudo que nossa imagem terá, criamos um diretório de trabalho, instalamos as dependências via npm e expomos a porta.
 
 Com o Dockerfile pronto, precisamos fazer o build da imagem, para isso execute:
 
