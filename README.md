@@ -82,7 +82,7 @@ vá para pasta raiz do projeto e execute o seguinte comando:
 ```
 docker build -t node-image -f api/database/Dockerfile .
 ```
- será baixada aimagem docker, se optar por ver execute o comando "docker ls", execute o camando abixo:
+ será baixada a imagem docker, se optar por ver execute o comando "docker ls", execute o camando abaixo:
  
 ```
 docker run -d -v (pwd)/api:home/node/app -p 9001:9001 --rm --name node-container node-image
